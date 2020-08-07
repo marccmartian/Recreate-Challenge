@@ -1,0 +1,89 @@
+/* By Marvin Carrasco Cruz */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+:root{
+  --text-color: #4A5568;
+  --text-color-bold: #1A202C;
+  --fill-icon-color: #4FD1C5;
+  --border-color: #A0AEC0;
+  --backgroung-fill: #F4F6F6;
+}
+
+.material-icons{
+  cursor: pointer;
+}
+
+.plus-icon, 
+.star-icon{
+  color: var(--fill-icon-color);
+}
+
+/* main container */
+.main-container{
+  width: 500px;
+  height: 200px;
+  margin: 150px auto;
+  padding: 20px;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.30);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* main header */
+.main-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__title{
+  font-weight: normal;
+}
+
+/* section */
+.section{
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.section__header{
+  border-radius: 4px;
+  padding: 5px 10px 2.5px 10px;
+  background-color: var(--backgroung-fill);
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__title{
+  font-weight: bold;
+}
+
+/* section form */
+.section__form{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__form--label{
+  width: 32%;
+  font-size: 12px;
+}
+
+.section__form--input{
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  outline: none;
+}
